@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.register-section{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
+
+}
+.register-form{
+ max-width: 280px;
+ width: 100%;
+}
+.input-div{
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0;
+}
+input{
+  margin-top: 5px;
+  padding: 3px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+label{
+  font-weight: 600;
+}
+h1, h2,p{
+  text-align: center;
+}
+.submit-btn{
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  margin: 5px 0;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: white;
+  
+}
+.toggle-btn{
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 4px;
+  font-size: 18px;
+  color: rgb(161, 10, 236);
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+
+.item-p{
+  text-align: left;
+}
